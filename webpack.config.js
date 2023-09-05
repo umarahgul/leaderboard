@@ -31,7 +31,8 @@ module.exports = {
     static: './dist',
   },
   plugins : [
-    new HtmlWebpackPlugin({title: 'Output Management',
+    new HtmlWebpackPlugin({
+    template: './src/index.html',
   }),
   ],
   optimization: {
