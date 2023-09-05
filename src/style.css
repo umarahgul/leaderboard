@@ -1,0 +1,87 @@
+.heading {
+  padding: 3%;
+  font-size: 3rem;
+}
+
+.recentScores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position: absolute;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3%;
+}
+
+.refresh {
+  font-size: 1.5rem;
+  padding: 2%;
+  width: fit-content;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.userForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2%;
+  font-size: 1rem;
+  padding: 2%;
+}
+
+.addScores {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  height: 100%;
+}
+
+.userName,
+.userScore {
+  margin: 2%;
+  font-size: 1.5rem;
+  padding: 5%;
+}
+
+.submit {
+  margin: 2%;
+  font-size: 1.5rem;
+  padding: 2%;
+  cursor: pointer;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+#scores {
+  border: solid black 2px;
+  list-style: none;
+  text-align: left;
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 1%;
+}
+
+#scores li:nth-child(odd) {
+  background-color: rgb(217, 213, 213);
+}
