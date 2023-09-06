@@ -1,4 +1,3 @@
-
 import './style.css';
 import displayScores from './modules/displayScores';
 import { createGame, submitScore, getScores } from './modules/consumeApi';
