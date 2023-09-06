@@ -39,3 +39,17 @@ export const submitScore = async (gameId, userName, userScore) => {
     return error;
   }
 };
+
+// ----- get scores from api---//
+
+export const getScores = async (gameId) => {
+  const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`;
+
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    return error;
+  }
+};
