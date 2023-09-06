@@ -1,25 +1,20 @@
-export const createGame =async (gameName) => {
+export const createGame = async (gameName) => {
+  const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 
-    const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
-   
-    const requestOptions = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: gameName }),
-    };
+  const requestOptions = {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: gameName }),
+  };
 
-    try {
-        const response = await fetch(url, requestOptions);
-        const data = await response.json();
-        return data;
-      }
-      
-        catch (error) {
-        return error;
-      }
-
+  try {
+    const response = await fetch(url, requestOptions);
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    return error;
+  }
 };
-
 
 //  ----  submit score ----//
 

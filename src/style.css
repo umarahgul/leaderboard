@@ -23,15 +23,16 @@
   padding: 3%;
 }
 
-.refresh {
+#refresh {
   font-size: 1.5rem;
   padding: 2%;
   width: fit-content;
   border-bottom: 5px solid black;
   border-right: 5px solid black;
+  cursor: pointer;
 }
 
-.userForm {
+#userForm {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -53,14 +54,14 @@
   height: 100%;
 }
 
-.userName,
-.userScore {
+#userName,
+#userScore {
   margin: 2%;
   font-size: 1.5rem;
   padding: 5%;
 }
 
-.submit {
+#submit {
   margin: 2%;
   font-size: 1.5rem;
   padding: 2%;
