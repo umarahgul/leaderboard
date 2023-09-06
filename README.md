@@ -27,7 +27,7 @@
 
 # 📖 to do List <a name="about-project"></a>
 
-"Leaderboard" is a minimalist web application that uses HTML, CSS, Javascript(ES6) webpack, bundlers linters and gitflow to let a user maintain a leaderboard. User would be able submit the score and refresh the scoreboard asynchronoulsly and dynamically.
+"Leaderboard" is a minimalist web application that uses HTML, CSS, Javascript(ES6) webpack, bundlers linters and gitflow to let a user maintain a leaderboard. User would be able submit the score and refresh the scoreboard asynchronoulsly and dynamically. RESTful API leaderboard is consumed.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -112,8 +112,7 @@ LinkedIn: [@umarahgul](https://linkedin.com/in/umarah-gul-36028a103)
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ] **The refresh button would have functionality'**
 - [ ] **The submit button would be able to submit new score**
-- [ ] **The values will be stored in local storage**
-- [ ] **The submit button would be able to submit new score**
+- [ ] **Styling would be added to enhance UX and UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
