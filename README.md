@@ -111,9 +111,9 @@ LinkedIn: [@umarahgul](https://linkedin.com/in/umarah-gul-36028a103)
 
 ## 🔭 Future Features <a name="future-features"></a>
 - [ ] **The refresh button would have functionality'**
-- [ ] **The submit button would be able to submit new score**
+- [ ] **While waiting for refresh to fetch a wait can be added**
 - [ ] **Styling would be added to enhance UX and UI**
-
+';[hp-;hl,km n]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
