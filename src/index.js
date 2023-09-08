@@ -1,7 +1,6 @@
 import './style.css';
 import displayScores from './modules/displayScores';
 import { createGame, submitScore, getScores } from './modules/consumeApi';
-//import resident.jpg from './src/assets';
 
 const populate = async () => {
   const gameId = localStorage.getItem('gameId');
